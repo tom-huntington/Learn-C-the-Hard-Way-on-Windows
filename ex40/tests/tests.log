@@ -1,0 +1,23 @@
+DEBUG tests/bstree_tests.c:176: ----- RUNNING: C:\a\z\ex40\tests\bstree_tests.exe
+DEBUG tests/bstree_tests.c:166: 
+----- test_create
+DEBUG tests/bstree_tests.c:167: 
+----- test_get_set
+DEBUG tests/bstree_tests.c:168: 
+----- test_traverse
+DEBUG tests/bstree_tests.c:24: KEY: test data 3
+DEBUG tests/bstree_tests.c:24: KEY: test data 2
+DEBUG tests/bstree_tests.c:24: KEY: test data 1
+DEBUG tests/bstree_tests.c:31: KEY: test data 3
+DEBUG tests/bstree_tests.c:31: KEY: test data 2
+DEBUG tests/bstree_tests.c:169: 
+----- test_delete
+DEBUG tests/bstree_tests.c:170: 
+----- test_destroy
+DEBUG tests/bstree_tests.c:171: 
+----- test_fuzzing
+DEBUG tests/bstree_tests.c:137: 43
+DEBUG tests/bstree_tests.c:137: 45
+DEBUG tests/bstree_tests.c:137: 9
+DEBUG tests/bstree_tests.c:137: 9
+[ERROR] (tests/bstree_tests.c:146: errno: None) Should get nothing.

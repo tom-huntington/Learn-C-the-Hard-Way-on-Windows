@@ -1,0 +1,9 @@
+DEBUG tests/libex29_tests.c:73: ----- RUNNING: C:\a\z\ex30\tests\libex29_tests.exe
+DEBUG tests/libex29_tests.c:65: 
+----- test_dlopen
+DEBUG tests/libex29_tests.c:66: 
+----- test_functions
+DEBUG tests/libex29_tests.c:67: 
+----- test_failures
+DEBUG tests/libex29_tests.c:68: 
+----- test_dlclose

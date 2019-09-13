@@ -1,0 +1,13 @@
+DEBUG tests/list_tests.c:105: ----- RUNNING: C:\a\z\ex32\tests\list_tests.exe
+DEBUG tests/list_tests.c:95: 
+----- test_create
+DEBUG tests/list_tests.c:96: 
+----- test_push_pop
+DEBUG tests/list_tests.c:97: 
+----- test_unshift
+DEBUG tests/list_tests.c:98: 
+----- test_remove
+DEBUG tests/list_tests.c:99: 
+----- test_shift
+DEBUG tests/list_tests.c:100: 
+----- test_destroy

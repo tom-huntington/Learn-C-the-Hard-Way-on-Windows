@@ -1,0 +1,36 @@
+DEBUG tests/statserve_tests.c:197: ----- RUNNING: C:\a\z\ex51\tests\statserve_tests.exe
+DEBUG src/statserve.c:570: full path: C:\tmp
+DEBUG tests/statserve_tests.c:187: 
+----- test_path_parsing
+DEBUG tests/statserve_tests.c:188: 
+----- test_encrypt_armor_name
+DEBUG tests/statserve_tests.c:142: Got encrypted name vtmTmzNI
+DEBUG tests/statserve_tests.c:147: Got encrypted name pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:189: 
+----- test_path_sanitize_armor
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: \tmp\8m9oyzgE62Aatz8Rqn1ngggg
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:173: result: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg, expect: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:190: 
+----- test_create
+[INFO] (src/statserve.c:125) create: /zed /zed 100
+DEBUG src/statserve.c:137: create: /zed 100
+[INFO] (src/statserve.c:125) create: /joe /joe 100
+DEBUG src/statserve.c:137: create: /joe 100
+DEBUG tests/statserve_tests.c:191: 
+----- test_sample
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+[INFO] (src/statserve.c:173) sample /zed /zed 100
+DEBUG tests/statserve_tests.c:192: 
+----- test_store_load
+[INFO] (src/statserve.c:218) delete: /zed
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+[INFO] (src/statserve.c:125) create: /zed /zed 100
+DEBUG src/statserve.c:137: create: /zed 100
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG src/statserve.c:307: store /zed
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: C:\tmp\v9nmgggg

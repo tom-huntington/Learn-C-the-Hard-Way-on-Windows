@@ -1,0 +1,73 @@
+DEBUG tests/statserve_tests.c:200: ----- RUNNING: C:\a\z\ex51b\tests\statserve_tests.exe
+DEBUG src/statserve.c:617: full path: C:\tmp
+DEBUG tests/statserve_tests.c:190: 
+----- test_path_parsing
+DEBUG tests/statserve_tests.c:191: 
+----- test_encrypt_armor_name
+DEBUG tests/statserve_tests.c:145: Got encrypted name vtmTmzNI
+DEBUG tests/statserve_tests.c:150: Got encrypted name pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:192: 
+----- test_path_sanitize_armor
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: \tmp\8m9oyzgE62Aatz8Rqn1ngggg
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:176: result: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg, expect: \tmp\pVOBpFjHEIhB7cuT3BGUvyZGn3lvyj226mgggggg
+DEBUG tests/statserve_tests.c:193: 
+----- test_create
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: create /zed 100
+[INFO] (src/statserve.c:125) create: /zed /zed 100
+DEBUG src/statserve.c:137: create: /zed 100
+DEBUG tests/statserve_tests.c:32: tests finished: €ñ
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: create /joe 100
+[INFO] (src/statserve.c:125) create: /joe /joe 100
+DEBUG src/statserve.c:137: create: /joe 100
+DEBUG tests/statserve_tests.c:32: tests finished: create /joe 100
+DEBUG tests/statserve_tests.c:194: 
+----- test_sample
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: sample /zed 100
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+[INFO] (src/statserve.c:173) sample /zed /zed 100
+DEBUG tests/statserve_tests.c:32: tests finished: sample /zed 100
+DEBUG tests/statserve_tests.c:195: 
+----- test_store_load
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: delete /zed
+[INFO] (src/statserve.c:218) delete: /zed
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG tests/statserve_tests.c:32: tests finished: delete /zed
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: create /zed 100
+[INFO] (src/statserve.c:125) create: /zed /zed 100
+DEBUG src/statserve.c:137: create: /zed 100
+DEBUG tests/statserve_tests.c:32: tests finished: create /zed 100
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: store /zed
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG src/statserve.c:306: store /zed
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: C:\tmp\v9nmgggg
+DEBUG src/statserve.c:318: location: C:\tmp\v9nmgggg
+DEBUG src/statserve.c:329: hFile: 000000E8
+DEBUG src/statserve.c:339: pre-WriteFile
+DEBUG src/statserve.c:348: post-WriteFile
+DEBUG src/statserve.c:354: post close
+DEBUG src/statserve.c:358: post send_reply
+DEBUG tests/statserve_tests.c:32: tests finished: store /zed
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: load /zed /sam
+DEBUG src/statserve.c:375: load /zed
+DEBUG src/statserve.c:108: pre-format
+DEBUG src/statserve.c:110: post-format: C:\tmp\v9nmgggg
+DEBUG src/statserve.c:395: pre-open read only
+DEBUG tests/statserve_tests.c:32: tests finished: load /zed /sam
+DEBUG tests/statserve_tests.c:48: pre-attempt next test
+DEBUG tests/statserve_tests.c:20: test starting: delete /sam
+[INFO] (src/statserve.c:218) delete: /sam
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG src/lcthw/hashmap.c:130: TRY: 0
+DEBUG tests/statserve_tests.c:32: tests finished: delete /sam

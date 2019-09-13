@@ -1,0 +1,11 @@
+DEBUG tests/statserve_tests.c:17: ----- RUNNING: C:\a\z\ex49\tests\statserve_tests.exe
+DEBUG tests/statserve_tests.c:12: 
+----- test_dummy
+DEBUG tests/statserve_tests.c:94: ----- RUNNING: C:\a\z\ex49\tests\statserve_tests.exe
+DEBUG tests/statserve_tests.c:88: 
+----- test_create
+DEBUG src/statserve.c:70: create: /zed 100
+DEBUG src/statserve.c:70: create: /joe 100
+DEBUG tests/statserve_tests.c:89: 
+----- test_sample
+DEBUG src/lcthw/hashmap.c:130: TRY: 0

@@ -1,0 +1,26 @@
+Script started on 2019-08-07 17:38:20+12:00 [TERM="xterm" TTY="/dev/pty0" COLUMNS="61" LINES="24"]
+]0;~/learn-c-the-hard-way-on-windows/ex7
+[32ma@DESKTOP-AAAAAAA [35mMINGW64[0m [33m~/learn-c-the-hard-way-on-windows/ex7[0m
+$ make ex7.c[K[K
+cc     ex7.c   -o ex7
+]0;~/learn-c-the-hard-way-on-windows/ex7
+[32ma@DESKTOP-AAAAAAA [35mMINGW64[0m [33m~/learn-c-the-hard-way-on-windows/ex7[0m
+$ ./ex7
+You are 100 miles away.
+You have 2.345000 levels of power.
+You have 56789.453200 awesome super powers.
+I have an initial A.
+I have a first name ZedZ.
+I have a last name Shaw.
+My whole name is ZedZ A. Shaw.
+You have 100 bugs at the imaginary rate of 1.200000.
+The entire universe has 1073741824 bugs.
+You are expected to have 120.000000 bugs.
+That is only a 1.117587e-007 portion of the universe.
+Which means you should care 0%.
+]0;~/learn-c-the-hard-way-on-windows/ex7
+[32ma@DESKTOP-AAAAAAA [35mMINGW64[0m [33m~/learn-c-the-hard-way-on-windows/ex7[0m
+$ exit
+exit
+
+Script done on 2019-08-07 17:38:38+12:00 [COMMAND_EXIT_CODE="0"]

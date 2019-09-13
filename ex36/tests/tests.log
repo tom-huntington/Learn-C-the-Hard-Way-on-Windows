@@ -1,0 +1,48 @@
+DEBUG tests/darray_algos_tests.c:74: ----- RUNNING: C:\a\z\ex36\tests\darray_algos_tests.exe
+DEBUG tests/darray_algos_tests.c:67: 
+----- test_qsort
+DEBUG tests/darray_algos_tests.c:37: --- Testing qsort sorting algorithm
+DEBUG tests/darray_algos_tests.c:68: 
+----- test_heapsort
+DEBUG tests/darray_algos_tests.c:37: --- Testing heapsort sorting algorithm
+DEBUG tests/darray_algos_tests.c:69: 
+----- test_mergesort
+DEBUG tests/darray_algos_tests.c:37: --- Testing mergesort sorting algorithm
+DEBUG tests/darray_tests.c:123: ----- RUNNING: C:\a\z\ex36\tests\darray_tests.exe
+DEBUG tests/darray_tests.c:111: 
+----- test_create
+DEBUG tests/darray_tests.c:112: 
+----- test_new
+DEBUG tests/darray_tests.c:113: 
+----- test_set
+DEBUG tests/darray_tests.c:114: 
+----- test_get
+DEBUG tests/darray_tests.c:115: 
+----- test_remove
+DEBUG tests/darray_tests.c:116: 
+----- test_expand_contract
+DEBUG tests/darray_tests.c:117: 
+----- test_push_pop
+DEBUG tests/darray_tests.c:118: 
+----- test_destroy
+DEBUG tests/list_algos_tests.c:88: ----- RUNNING: C:\a\z\ex36\tests\list_algos_tests.exe
+DEBUG tests/list_algos_tests.c:82: 
+----- test_bubble_sort
+DEBUG tests/list_algos_tests.c:83: 
+----- test_merge_sort
+DEBUG tests/list_tests.c:105: ----- RUNNING: C:\a\z\ex36\tests\list_tests.exe
+DEBUG tests/list_tests.c:95: 
+----- test_create
+DEBUG tests/list_tests.c:96: 
+----- test_push_pop
+DEBUG tests/list_tests.c:97: 
+----- test_unshift
+DEBUG tests/list_tests.c:98: 
+----- test_remove
+DEBUG tests/list_tests.c:99: 
+----- test_shift
+DEBUG tests/list_tests.c:100: 
+----- test_destroy
+DEBUG tests/radixmap_tests.c:110: ----- RUNNING: C:\a\z\ex36\tests\radixmap_tests.exe
+DEBUG tests/radixmap_tests.c:105: 
+----- test_operations
